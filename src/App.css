@@ -17,6 +17,14 @@ header {
   background: white;
 }
 
+#input-with-icon-adornment {
+    width: 7px;
+}
+
+#input-with-icon-adornment:focus {
+ width: auto;
+}
+
 .nav-area {
   display: flex;
   align-items: center;
