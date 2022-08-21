@@ -11,13 +11,21 @@ body {
 header {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   color: #212529;
+
+  position: sticky;
+  top: 0;
+  background: white;
 }
 
 .nav-area {
   display: flex;
   align-items: center;
+
+  justify-content: space-between;
+
+
   max-width: 1200px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 10px 20px;
 }
 
