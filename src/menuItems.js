@@ -1,56 +1,56 @@
 export const menuItems = [
   {
-    title: 'Home',
-    url: '/',
+    title: "Nastea",
+    url: "/",
   },
   {
-    title: 'Services',
-    url: '/services',
+    title: "Servicii",
+    url: "/services",
     submenu: [
       {
-        title: 'web design',
-        url: 'web-design',
+        title: "super design",
+        url: "design",
       },
       {
-        title: 'web development',
-        url: 'web-dev',
+        title: "web development",
+        url: "web-dev",
         submenu: [
           {
-            title: 'Frontend',
-            url: 'frontend',
+            title: "Frontend",
+            url: "frontend",
           },
           {
-            title: 'Backend',
+            title: "Backend",
             submenu: [
               {
-                title: 'NodeJS',
-                url: 'node',
+                title: "NodeJS",
+                url: "node",
               },
               {
-                title: 'PHP',
-                url: 'php',
+                title: "PHP",
+                url: "php",
               },
             ],
           },
         ],
       },
       {
-        title: 'SEO',
-        url: 'seo',
+        title: "SEO",
+        url: "seo",
       },
     ],
   },
   {
-    title: 'About',
-    url: '/about',
+    title: "About",
+    url: "/about",
     submenu: [
       {
-        title: 'Who we are',
-        url: 'who-we-are',
+        title: "Who we are",
+        url: "who-we-are",
       },
       {
-        title: 'Our values',
-        url: 'our-values',
+        title: "Our values",
+        url: "our-values",
       },
     ],
   },
