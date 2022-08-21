@@ -1,13 +1,5 @@
 export const menuItems = [
   {
-    title: "Nastea",
-    url: "/",
-  },
-  {
-    title: "Nastea",
-    url: "/",
-  },
-  {
     title: "Servicii",
     url: "/services",
     submenu: [
@@ -57,5 +49,13 @@ export const menuItems = [
         url: "our-values",
       },
     ],
+  },
+  {
+    title: "Nastea",
+    url: "/",
+  },
+  {
+    title: "Nastea",
+    url: "/",
   },
 ];
